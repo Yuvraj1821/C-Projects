@@ -1,0 +1,22 @@
+
+
+template = template is an blueprint of an class
+	   template is a keyword which use to define function template generic, function/class template, generic class
+	   It can be said as we are passing datatype as parameter to class.
+
+why we use template : 
+
+  * dry principle - do not repeat yourself       
+  * generic programming : function or class which is not specifically made for integer only ,
+ it has been made for any datatype
+
+
+function template : function template is also known as generic function (generic : one for all)
+	
+	syntax : template <typename type> type function_name(arg) 	(typename is an keyword)
+
+
+class template :  class template is also known as generic class.
+
+	syntax : template <class type> class class_name 
+	

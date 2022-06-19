@@ -1,0 +1,21 @@
+
+File handling in c++
+
+To work with file we use three classes 
+
+*header file <fstream>
+	1.fstreambase
+	2.ifstream	--> use to get the value from file. This class derived from fstreambase
+	3.ofstream	--> use to put the value to file. This class is also derived from fstreambase
+
+*To open the the file there are two ways :
+
+	1. using the constructor
+	2. using the member function open() of the class
+
+*getline() : to scan the full data of file 
+
+*TO close the file we can use close() of the class
+
+
+This is enough info. to get to know about file handling.
